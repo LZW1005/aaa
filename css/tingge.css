@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background-image: url(../images/g7.jpg);
+    background-size: 100% ;
+  /* background:#ddd;*/
+  overflow: hidden;
+}
+header h6{
+    float: left;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: -40px;
+}
+header{
+height: 70px;
+background-color: rgba(255,255,255,.3);
+}
+header img{
+float: left;
+height: 60px;
+margin-top: 5px;
+margin-left: 135px;
+margin-right: 40px;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+header ul{
+width: 1600px;
+height:70px;
+margin: 0px auto;
+display: block;
+
+
+}
+header Ul li a{
+    color:#000000;
+    float: left;
+    margin-left:48px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight:Normal; 
+    text-decoration:none; 
+}
+header Ul li a:hover{
+    background:#ddd;
+    color:#FFFFFF;
+    font-weight:Normal; 
+    text-decoration:none; 
+
+}
+main ul{
+    width: 300px;
+    height: 300px;
+    margin:100px auto;
+    position: relative;
+    /* 加次样式，可以让内部进入三维坐标 */
+    transform-style:preserve-3d ;
+    animation: cat 18s  infinite linear;
+    
+}
+main ul:hover{
+    cursor: pointer;
+}
+@keyframes cat {
+    0%{
+        transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateY(360deg) rotateX(720deg) rotateZ(720deg);
+    }
+}
+main ul li{
+    width: 250px;
+    height: 250px;
+    border-radius:px;
+    box-shadow:0 0 300px #fff;
+    border:1px solid rgba(255, 255, 255, 0.438);
+    position: absolute;
+    left:0px;
+    top: 0px;
+}
+main ul img{
+    width: 250px;
+    height: 250px;
+}
+main li:nth-of-type(1){
+ 
+    transform: translateZ(125px);
+}
+main li:nth-of-type(2){
+   
+    transform: translateZ(-125px);
+}
+main li:nth-of-type(3){
+   
+    transform: translateX(-125px) rotateY(90deg);
+}
+main li:nth-of-type(4){
+   
+    transform: translateX(125px) rotateY(90deg);
+}
+main li:nth-of-type(5){
+   
+    transform: translateY(125px) rotateX(90deg);
+}
+main li:nth-of-type(6){
+   
+    transform: translateY(-125px) rotateX(90deg);
+}
+main a{
+    font-weight:Normal; 
+    text-decoration:none; 
+}
+h1{
+   line-height: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: darkkhaki;
+}

@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background-image: url(../images/c8.jpg);
+    background-size: 100% ;
+   /* background:#ddd;*/
+   overflow: hidden;
+}
+header h6{
+    float: left;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: -40px;
+}
+header{
+height: 70px;
+background-color: rgba(255,255,255,.3);
+}
+header img{
+float: left;
+height: 60px;
+margin-top: 5px;
+margin-left: 135px;
+margin-right: 40px;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+header ul{
+width: 1600px;
+height:70px;
+margin: 0px auto;
+display: block;
+
+
+}
+header Ul li a{
+    color:#000000;
+    float: left;
+    margin-left:48px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+}
+header Ul li a:hover{
+    background:#ddd;
+    color:#FFFFFF;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+
+}
+.aa{
+    width: 1035px;
+    height: 215px;
+    /*background-color: rgba(255,255,255,.3);*/
+    margin: 0px auto;
+    margin-top: 30px;
+    
+    
+}
+ .aa textarea{
+    width: 1034px;
+    /* 禁止伸缩 */
+    resize: none;
+    margin:0px auto;
+    /* 把标签转变为快级标签 */
+    display: block;
+    /* 去除鼠标点进去以后的边框 */
+    outline: none;
+    overflow: hidden;
+   
+}
+ .aa ul{
+    width: 1000px;
+    margin:0px auto;
+}
+ .aa li{
+    margin:70px 0px;
+    border:1px solid rgb(253, 252, 252);
+    position: relative;
+    padding:10px;
+    background-color: rgba(255,255,255,.3);
+}
+.aa span{
+    font-size: 30px;
+    color: coral;
+}
+.del{
+    position: absolute;
+    right:-13px;
+    top:-20px;
+    cursor: pointer;
+}
+
+button{
+    width: 1035px;
+    background:#ddd;
+    border:none;
+    outline: none;
+    /* 把标签转变为快级标签 */
+    display: block;
+    margin:0px auto;
+    /* 行高 */
+    line-height: 40px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+main{
+    width: 1035px;
+    background-color: rgba(255,255,255,.3);
+    height: 50px;
+    margin: auto;
+    margin-top: -28px;
+    border: rgba(255,255,255,.3) 1px solid;
+    border-radius:20px 20px 20px 20px ;
+}
+main audio{
+    margin-top: -4px;
+    margin-left: 12px;
+    width: 808px;
+    height: 39px;
+    position: relative;
+    top: 10px;
+}
+main span{
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+main i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: azure;
+}
+textarea:-webkit-input-placeholder {
+    color: #666;
+    font-size: 30px;  
+}
+
+    

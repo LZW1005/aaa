@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+   /* background-image: url(../images/a2.jpg);
+    background-size: 100% ;*/
+    background:#ddd;
+    overflow: hidden;
+}
+header h6{
+    float: left;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: -40px;
+}
+header{
+height: 70px;
+background-color: rgba(255,255,255,.3);
+}
+header img{
+float: left;
+height: 60px;
+margin-top: 5px;
+margin-left: 135px;
+margin-right: 40px;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+header ul{
+width: 1600px;
+height:70px;
+margin: 0px auto;
+display: block;
+
+
+}
+header Ul li a{
+    color:#000000;
+    float: left;
+    margin-left:48px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+}
+header Ul li a:hover{
+    background:#ddd;
+    color:#FFFFFF;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+
+}
+main{width: 1450px;
+    height: 40px;
+    background:rgba(255,255,255,.3);
+    margin: 30px auto ;
+    text-align:center; 
+    
+}
+main span{
+  font-size:28px;
+}
+main a{
+    margin-top: 5px;
+    float: right;
+    font-weight:Normal; 
+    text-decoration:none;
+    
+}
+main i:hover{
+    color: rgba(248, 241, 241, 0.774);
+}
+main i{
+    font-size: 23px;
+    border: rgba(255,255,255,.3) 1px solid;
+    width: 300px;
+    height: 200px;
+    background:rgba(255,255,255,.3);
+    color: rgba(13, 14, 13, 0.562);
+}
+.a1 {
+    width: 1450px;
+    height: 550px;
+    background:rgba(255,255,255,.3) ;
+    margin:30px auto;
+}
+.a2{
+    float: left;
+    width: 250px;
+    height: 490px;
+    background: rgb(137, 132, 138);
+    margin-left: 30px;
+    
+}
+.a3{float: left;
+    width: 250px;
+    height:490px;
+    background: rgba(140, 108, 177, 0.425);
+    margin-left: 30px;
+   
+}
+.a4{float: left;
+    width:250px;
+    height: 490px;
+    background: rgb(151, 142, 192);
+    margin-left: 30px;
+    
+}
+.a5{float: left;
+    width: 250px;
+    height:490px;
+    background: rgb(166, 190, 190);
+    margin-left: 30px;
+    
+}
+.a6{float: left;
+    width: 250px;
+    height: 490px;
+    background: rgb(206, 164, 198);
+    margin-left: 30px;
+    
+}
+.a1 span{
+margin-left:75px;
+font-size: 30px;
+margin-bottom: 50px;
+color: #bebaba;
+}
+.a1 span:hover{
+    cursor: pointer;
+    }
+.a1 h2{
+    margin-left:85px;
+    font-size: 35px;
+    margin-bottom: -50px;
+    color: #FFFFFF;
+}
+.a1 h2:hover{
+   cursor: pointer;
+}
+.a4 h2{
+    margin-left:50px;
+    font-size: 35px;
+ }
+ .a1 img{
+    margin-left:83px;
+    margin-top: 60px;
+ }
+
+ .a1 ul{
+     margin-left: 40px;
+     font-size: 20px;
+ }
+ .a1 ul a{
+    font-weight:Normal; 
+    text-decoration:none;
+    color: #FFFFFF;
+ }
+ .a1 ul a:hover{
+    font-weight:Normal; 
+    text-decoration:none;
+    color: #0b140e;
+ }
+ 

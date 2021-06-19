@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+   background-image: url(../images/g8.jpg);
+    background-size: 100% ;
+    /*overflow: hidden;*/
+  /*  background:rgb(73, 70, 71);*/
+}
+header h6{
+    float: left;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: -40px;
+}
+header{
+height: 70px;
+background-color: rgba(255,255,255,.3);
+}
+header img{
+float: left;
+height: 60px;
+margin-top: 5px;
+margin-left: 135px;
+margin-right: 40px;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+header ul{
+width: 1600px;
+height:70px;
+margin: 0px auto;
+display: block;
+
+
+}
+header Ul li a{
+    color:#000000;
+    float: left;
+    margin-left:48px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+}
+header Ul li a:hover{
+    background:#ddd;
+    color:#FFFFFF;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+
+}
+.aa{
+    width: 1000px;
+    height: 250px;
+    background-color: rgba(255,255,255,.3);
+    margin: 0px auto;
+    margin-top: 20px;
+   
+}
+.aa img{
+    margin-top: 30px;
+    float: left;
+    border-radius: 200px;
+}
+.aa h1{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    font-weight:Normal; 
+    text-decoration:none; 
+    color: darkgray;
+}
+.aa h1:hover{
+    color: lime;
+}
+.aa h2{
+    float: right;
+    border: rgba(233, 230, 230, 0.952) 1px solid;
+    font-weight:Normal; 
+    text-decoration:none; 
+    background:rgba(255,255,255,.3) ;
+    color:#333;
+    border-radius:20px 20px 20px 20px ;
+    margin-right: 40px;
+    margin-top: -20px;
+}
+.aa h2:hover{
+    background-color: cornsilk;
+}
+.aa i{float: left;
+    margin-top: 42px;
+    font-weight:Normal; 
+    text-decoration:none; 
+    border: rgba(233, 230, 230, 0.582) 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #7c7878;
+}
+.aa i:hover{
+    background-color: darksalmon;
+    color: lightskyblue;
+}
+
+.aa ul{
+     margin-top:30px;
+   margin-left: 30px;
+    float: left;
+    
+}
+.aa ul a{
+    font-weight:Normal; 
+    text-decoration:none; 
+    font-size: 20px;
+    line-height: 30px;
+    color: blanchedalmond;
+}
+.aa ul a:hover{
+    color: orangered;
+}
+.bb{
+    position: relative;
+    width: 1000px;
+    height: 440px;
+    background-color: rgba(255,255,255,.3);
+    margin: 0px auto;
+    margin-top: 40px;
+
+}
+.bb a{
+    font-weight:Normal; 
+    text-decoration:none; 
+}
+.bb h6{
+    font-size: 25px;
+    color: rgba(23, 241, 132, 0.5);
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.bb li{float: left;
+    border: rgba(233, 230, 230, 0.582) 1px solid;
+    width: 300px;
+    height: 280px;
+    background-color:rgba(255,255,255,.3);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.bb li img{
+    width: 300px;
+    height: 220px;
+}
+.bb li span{
+    font-size: 20px;
+    color: #333;
+}
+.bb li span:hover{
+    color: rgb(255, 172, 142);
+}
+.bb li i{
+    color: #eec6c6;
+    font-size: 15px;
+}
+.bb li i:hover{
+    color: rgb(239, 245, 216);
+}
+.bb video{
+    margin-top: -60px;
+    width:300px;
+    height:290px;
+}
+
+.aaa img{
+    position: absolute;
+    top: -23px;
+    left: -250px;
+    margin-left: 150px;
+    width: 65px;
+    height: 65px;
+    animation: move 20s linear infinite;
+}
+ @keyframes move{
+     0%{
+         transform: translate(0px,0px)
+     }
+     25%{
+         transform: translate(1200px,0px) rotate(360deg) scale(1.5);
+     }
+     50%{
+         transform: translate(1200px,420px) scale(1.5);
+     }
+     75%{
+        transform: translate(0px,420px) scale(2) rotate(360deg);
+     }
+     100%{
+         transform: translate(0px,0px)
+     }
+ }

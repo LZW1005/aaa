@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background-image: url("../images/g5.jpg");
+    background-size: 100%;
+    overflow: hidden;
+}
+
+header h6{
+    float: left;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: -40px;
+}
+header{
+height: 70px;
+background-color: rgba(92, 92, 92, 0.3);
+}
+header img{
+float: left;
+height: 60px;
+margin-top: 5px;
+margin-left: 135px;
+margin-right: 40px;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+header ul{
+width: 1600px;
+height:70px;
+margin: 0px auto;
+display: block;
+
+
+
+}
+header Ul li a{
+    color:#000000;
+    float: left;
+    margin-left:48px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+}
+header Ul li a:hover{
+    background:#ddd;
+    color:#FFFFFF;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+
+}
+main{
+    width: 1360px;
+    height: 610px;
+    margin: 30px auto;
+}
+
+div{
+    float: left;
+    width: 350px;
+    height: 400px;
+    background: rgba(255,255,255,.3);
+    margin-left: 75px;
+    margin-top: 95px;
+}
+div img{
+    width: 100px;
+    height: 100px;
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+div span{
+   font-size: 22px;
+    color: #000;
+    margin-left: 90px;
+}
+.aa{
+    margin-left: 115px;
+}
+div a{
+    font-weight:Normal; 
+    text-decoration:none; 
+}
+div i{
+    margin-left: 95px;
+    color: #58ebc6;
+}
+div p{
+    border: #f1f1f1 1px solid;
+    width: 100px;
+    height: 40px;
+    line-height: 36px;
+    background: lawngreen;
+    font-size: 20px;
+    margin-left: 120px;
+    text-align: center;
+    color: #FFFF;
+
+}
+div p:hover{
+    color: rgb(95, 96, 160);
+}

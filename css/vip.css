@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background-image: url(../images/g1.jpg);
+    background-size: 100% ;
+   /* background:#ddd;*/
+   overflow: hidden;
+}
+header h6{
+    float: left;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: -40px;
+}
+header{
+height: 70px;
+background-color: rgba(255,255,255,.3);
+}
+header img{
+float: left;
+height: 60px;
+margin-top: 5px;
+margin-left: 135px;
+margin-right: 40px;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+header ul{
+width: 1600px;
+height:70px;
+margin: 0px auto;
+display: block;
+
+
+}
+header Ul li a{
+    color:#000000;
+    float: left;
+    margin-left:48px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+}
+header Ul li a:hover{
+    background:#ddd;
+    color:#FFFFFF;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+
+}
+
+.aa h1{
+color: cornsilk;
+
+}
+.aa h1 i{
+margin-left: 20px;
+font-size: 80px;
+font-family: "楷体";
+}
+.aa p{
+    font-size: 30px;
+    color: #ddd;
+    
+}
+.aa a{
+    font-weight:Normal; 
+    text-decoration:none; 
+}
+.aa a h4{
+    border:1px solid rgb(253, 252, 252);
+    background-color: #31c27c;
+    width: 210px;
+    height: 55px;
+    border-radius:20px 20px 20px 20px ;
+    font-size: 40px;
+    color: #ddd;
+    font-family: "楷体";
+    text-align:center;
+    
+}
+.aa a h4:hover{
+    background-color:#0e7945 ;
+    color: cornflowerblue;
+}
+
+.aa h1:nth-of-type(1){
+    animation:pao 2s alternate forwards;
+}
+
+@keyframes pao{
+    0%{
+        transform: translate(0px,0px);
+        opacity: 0;
+    }
+   
+    100%{
+        transform: translate(500px,200px);
+        opacity: 1;
+    }
+}
+.aa p:nth-of-type(1){
+    animation:aaa 2s alternate forwards;
+}
+
+@keyframes aaa{
+    0%{
+        transform: translate(0px,0px);
+        opacity: 0;
+        
+    }
+   
+    100%{
+        transform: translate(644px,213px);
+        opacity: 1;
+        
+    }
+}
+.aa h4:nth-of-type(1){
+    animation:aaaa 2s alternate forwards;
+    
+}
+
+@keyframes aaaa{
+    0%{
+        transform: translate(0px,0px); 
+        opacity: 0;
+    }
+   
+    100%{
+        transform: translate(645px,244px);
+        opacity: 1;
+    }
+}
+.bb{
+    height: 100px;
+    background-color: rgba(255,255,255,.3);
+    margin-top: 325px;
+    text-align:center; 
+   
+
+}
+.bb a{
+    font-weight:Normal; 
+    text-decoration:none;
+}
+.bb span{
+     margin-left: 100px;
+    font-size: 30px;
+    color: #ddd;
+}
+.bb span:hover{
+    color: cornflowerblue;
+}

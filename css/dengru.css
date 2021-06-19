@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+body{
+    background-image: url(../images/a1.jpg);
+    background-size: 100% ;
+    overflow: hidden;
+}
+.aaaa h6{
+    float: left;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: -40px;
+}
+.aaaa{
+height: 70px;
+background-color: rgba(255,255,255,.3);
+}
+.aaaa img{
+float: left;
+height: 60px;
+margin-top: 5px;
+margin-left: 135px;
+margin-right: 40px;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+.aaaa ul{
+width: 1600px;
+height:70px;
+margin: 0px auto;
+display: block;
+
+
+}
+.aaaa Ul li a{
+    color:#000000;
+    float: left;
+    margin-left:48px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+}
+.aaaa Ul li a:hover{
+    background:#ddd;
+    color:#FFFFFF;
+    font-weight:Normal; /*CSS字体效果 普通 可以改成bold粗体 如果去除此行那么默认是不显示下划线的*/
+    text-decoration:none; /*CSS下划线效果：无下划线*/
+
+}
+
+.aa{
+    width: 580px;
+    height: 386px;
+    background-color: rgba(0,0,0,.2);
+    border: rgba(255,255,255,.3) 1px solid;
+    margin: 124px auto 10px;
+
+}
+
+main{ 
+    width: 230px;
+    height: 50px;
+}
+main ul{ 
+    width: 580px;
+    height: 50px;
+    overflow: hidden;
+    margin:0px auto;
+    float: left;
+    margin-bottom: 50px;
+}
+main ul lo{
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-left: 125px;
+    color: #ddd;
+    font-size: 23px;
+    margin-top: 15px;
+    
+}
+main ul lo:hover{
+cursor: pointer;
+}
+
+main ul lo:nth-of-type(1){
+  /*  background:rgba(255,255,255,.3);*/
+}
+
+
+section>div{
+    display: none;
+}
+section>div:nth-of-type(1){
+   /* display: block;*/
+}
+div span{
+    margin-left: 22px;
+    color: #ddd;
+    font-size: 34px;
+    
+}
+div span i{
+position: relative;
+top: 2px;
+left: 25px;
+font-size: 20px;
+}
+input{
+    width: 383px;
+    height: 38px;
+    margin-left: 60px;
+}
+.a4{
+    margin-top: 25px;
+    margin-left: 128px;
+}
+.a5{
+    margin-top: 25px;
+    margin-left: 173px;
+}
+.a7{
+    position: relative;
+    left: 16px;
+}
+marquee{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    color: rgb(17, 211, 211);
+}
+p{
+    text-align: center;
+    color: #ddd;
+}
+p:hover{
+    cursor: pointer;
+    color: rgb(47, 57, 199);
+}
